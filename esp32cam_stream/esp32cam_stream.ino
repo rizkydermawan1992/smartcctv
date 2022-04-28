@@ -36,8 +36,8 @@ This is what you need to do:
 Should work then
 */
 
-#define SSID1 "Kolongwewe"
-#define PWD1 "sayatdktau"
+#define SSID1 "rdhdev"
+#define PWD1 "lupasandi"
 
 
 
@@ -136,10 +136,10 @@ void setup()
   config.pixel_format = PIXFORMAT_JPEG;
 
   // Frame parameters
-  //config.frame_size = FRAMESIZE_UXGA;
-  config.frame_size = FRAMESIZE_QVGA;
+  
+  config.frame_size = FRAMESIZE_SVGA;
   config.jpeg_quality = 12;
-  config.fb_count = 2;
+  config.fb_count = 1;
 
 #if defined(CAMERA_MODEL_ESP_EYE)
   pinMode(13, INPUT_PULLUP);
