@@ -36,8 +36,8 @@ This is what you need to do:
 Should work then
 */
 
-#define SSID1 "rdhdev"
-#define PWD1 "lupasandi"
+#define SSID1 "Kolongwewe"
+#define PWD1 "sayatdktau"
 
 
 
